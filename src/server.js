@@ -72,6 +72,7 @@ app.get("/api/productos-test", (req, res) => {
         })
         
     }
+    res.send(msgFaker)
 })
 
 

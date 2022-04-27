@@ -1,0 +1,13 @@
+<a href="/"> Cargar producto</a>
+
+<div>
+    <h1>Listado de Productos</h1>
+
+    {{#each db}}
+
+        <div>
+            <h4>{{this.title}}</h4>
+            <span>Price: {{this}}</span>
+            <img src={{this.img}} alt={{this.title}}+ "img">
+        </div>
+</div>
